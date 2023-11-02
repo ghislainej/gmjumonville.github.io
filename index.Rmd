@@ -1,13 +1,20 @@
 ---
-name: "Ghislaine Jumonville"
+name: "About Me"
 output:
   html_document:
     toc: true
     toc_float: true
 ---
 
-# Ghislaine Jumonville
+# Welcome!
 
+This is my website for P8110: Data Science I Homework 4. Here, I have my educational and work experience located in the [Experience](experience.html) tab above. I also have the flexdashboard I created located in the [tbd](...) tab. 
 
+### About Me: Ghislaine Jumonville
+I am a second year MPH student in the epidemiology department at Columbia University Mailman School of Public Health. I'm originally from Huntington Beach, California, but have been living in New York for the past six years and going to school. Outside of school, I enjoy long walks, NYT games (especially the crossword), and hanging out with my cats (pictured below).
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+This is Lu (laying down) and Ophelia (sitting)!
+![](lu_oph.jpeg)
+
+This is Frank!
+![](frank.jpeg)
