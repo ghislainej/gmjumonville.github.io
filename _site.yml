@@ -15,4 +15,4 @@ navbar:
       href: http://www.linkedin.com/in/ghislaine-jumonville 
 output:
   html_document:
-    theme: cerulean
+    theme: minty

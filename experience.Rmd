@@ -1,5 +1,5 @@
 ---
-title: "Experience"
+title: ""
 output:
   html_document:
     toc: true
@@ -7,8 +7,81 @@ output:
     theme: cerulean
 ---
 
-# Ghislaine Jumonville
+# Educational Background
+
+### 2024 Masters of Public Health (in progress)
+#### Columbia University, Mailman School of Public Health, *New York, NY*
+
+* Epidemiology Department
+* Certificate in Applied Biostatistics & Data Science
+* GPA: 4.0
+
+### 2022 Bachelors of Science in Global Public Health and Biology
+#### New York University, School of Global Public Health *New York, NY*
+* Pre-Health
+* GPA:3.7
+
+# Professional Experience
+### Columbia University, *New York, NY*
+#### *Teaching Assistant* (September 2023 - Present)
+
+* Assisted in the instruction of graduate students in the principles and applications of quantitative research methods
+* Conducted weekly recitation sessions to reinforce course material, clarify concepts, and guide students through practical applications
+* Graded weekly homework assignments and labs, offering constructive feedback to facilitate student learning and improvement
+
+#### *Student Research Worker* (May 2023 - Present)
+
+*	Collected data collection on over 300 Google Street View locations, systematically answering questions related to pedestrian safety parameters
+* Demonstrated meticulous attention to detail in accurately recording information on street infrastructure
+* Effectively communicated with team members to address queries and ensure consistency in data collection
+
+#### *Graduate Research Assistant* (May 2023 - August 2023)
+
+* Worked under [Dr. Lynn Petukhova](https://www.dermatology.columbia.edu/profile/lynn-petukhova-phd)
+* Conducted comprehensive literature reviews to inform and contextualize dermatology research projects focusing on the chronic skin condition, *Hidradenitis suppurativa*
+* Co-authored a perspectives piece, published in the British Journal of Dermatology, drawing attention to the underutilization of digital biobanks in dermatology
+* Applied advanced data cleaning techniques to ensure the integrity and reliability of data sets for subsequent analyses
+* Executed pathway enrichment analyses using DAVID, uncovering key biological insights
+* Played a crucial role in the preparation of manuscripts for submission to peer-reviewed journals
 
 
+### NYU Langone, *New York, NY*
+#### Research Assistant (October 2021 - May 2022)
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+*	Meticulously followed laboratory protocol for the digestion and extraction of 200+  tissue samples in preparation for the identification and quantification of microplastics in human organ systems
+* Applied fundamental laboratory skills (e.g. vacuum filtration, calculating molarities and dilutions, lab safety, pipetting, weighing, lab equipment sterilization, etc.)
+* Kept and maintained detailed notes and measurements on each of the individual samples
+* Worked independently and managed a strict schedule for the time-sensitive protocol
+
+### New York University, *New York, NY*
+#### Public Health Ambassador (September 2020 - May 2022)
+
+* Informed students, faculty, and staff of up-to-date public health policies (governmental and university) during the COVID-19 pandemic to ensure a safe environment for those attending school in-person
+* Distributed personal protective equipment and COVID-19 test kits in essential school buildings
+* Surveilled assigned areas and completed a report every shift to inform future staffing distribution
+
+### United Asset Management, *Huntington Beach, CA*
+#### Asset Management Intern (June 2019 - August 2019)
+
+* Worked alongside portfolio managers and other executives to consolidate, acquire, and analyze large quantities of data on a loan-level and portfolio-level for distressed residential mortgages
+* Researched and appraised real estate values on over 100 properties a day, examined credit reports, and organized and inputted data into Google Sheets
+* Supervised and trained three new asset management interns
+
+# Volunteer Work
+### Community HealthEd, *Remote*
+#### Copy Editor (October 2021 - Present)
+
+*	Editing public health newsletter articles weekly for clarity, structure, and grammar
+
+### New York City Free Clinic, *New York, NY*
+#### Outreach Volunteer	(June 2021- January 2022)
+
+* Outreached to underserved NYC communities about the services offered at the clinic
+* Assisted in the production of informational materials for presentations and distribution
+
+
+# Skills	
+* **Data Analysis and Visualization**: SAS (Spring 2023), R/R Studio
+* **Computer**: Microsoft Programs (Excel, Office, and Word), Canva, Airtable, Slack
+* **Language**: French - limited working proficiency (Seal of Biliteracy 2018)
+
