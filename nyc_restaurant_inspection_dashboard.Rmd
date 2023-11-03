@@ -33,7 +33,7 @@ Column {data-width=650}
 
 ### Number of restaurants by borough separated by grade
 
-```{r}
+```{r, warning = FALSE}
 rest_inspec |> 
   group_by(grade) |> 
   count(boro) |> 
@@ -47,14 +47,14 @@ Column {data-width=350}
 
 ### Score of restaurants by borough.
 
-```{r}
+```{r, warning = FALSE}
 rest_inspec |> 
   mutate(boro = fct_reorder(boro, score)) |> 
   plot_ly(y = ~score, color = ~boro, type = "box", colors = "viridis")
 ```
 
 ### Scatterplot of restaurant scores over time in Manhattan
-```{r}
+```{r, warning = FALSE}
 rest_inspec |> 
   filter(cuisine_description == "American") |> 
   plot_ly(

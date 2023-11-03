@@ -14,7 +14,7 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-```{r}
+
 ### Number of restaurants by borough separated by grade
 ```{r}
 rest_inspec |> 
@@ -38,6 +38,5 @@ rest_inspec |>
   plot_ly(
     x = ~grade_date, y = ~score, type = "scatter", mode = "markers", color = ~boro, alpha = 0.5)
   )
-
 ```
 
