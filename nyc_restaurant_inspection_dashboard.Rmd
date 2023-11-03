@@ -28,7 +28,7 @@ rest_inspec =
     boro != "Missing")
 ```
 
-Column {data-width=650}
+{data-width=650}
 -----------------------------------------------------------------------
 
 ### Number of restaurants by borough separated by grade
@@ -42,7 +42,7 @@ rest_inspec |>
 ```
 
 
-Column {data-width=350}
+{data-width=350}
 -----------------------------------------------------------------------
 
 ### Score of restaurants by borough.
