@@ -1,0 +1,48 @@
+---
+title: "NYC Restaurant Inspection Results"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(plotly)
+library(tidyverse)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+rest_inspec |> 
+  mutate(boro = fct_reorder(boro, score)) |> 
+  plot_ly(y = ~score, color = ~boro, type = "box", colors = "viridis")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+rest_inspec |> 
+  group_by(grade) |> 
+  count(boro) |> 
+  plot_ly(y = ~n, x = ~boro, color = ~grade, type = "bar", colors = "viridis") |> 
+  layout(xaxis = list(type = 'category'), barmode = 'stack')
+```
+
+### Chart C
+
+```{r}
+rest_inspec |> 
+  filter(cuisine_description == "American") |> 
+  plot_ly(
+    x = ~grade_date, y = ~score, type = "scatter", mode = "markers", color = ~boro, alpha = 0.5)
+  )
+```
+

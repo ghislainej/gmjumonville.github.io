@@ -1,21 +1,38 @@
 ---
-name: "Flexdashboard"
-output:
-  html_document:
-    toc: true
-    toc_float: true
+title: "NYC Restaurant Inspection Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
 ---
 
-# NYC Restaurant Inspection Results
-
-```{r, include = FALSE}
+```{r setup, include=FALSE}
+library(flexdashboard)
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
 ```
 
 ```{r}
+data("rest_inspec")
+
+rest_inspec =
+  rest_inspec |> 
+  select(-action, -camis, -phone, -inspection_type, -record_date) |> 
+  filter(
+    !is.na(grade),
+    !is.na(violation_code),
+    !is.na(boro),
+    grade != "Not Yet Graded",
+    boro != "Missing")
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
 ### Number of restaurants by borough separated by grade
+
 ```{r}
 rest_inspec |> 
   group_by(grade) |> 
@@ -24,7 +41,12 @@ rest_inspec |>
   layout(xaxis = list(type = 'category'), barmode = 'stack')
 ```
 
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
 ### Score of restaurants by borough.
+
 ```{r}
 rest_inspec |> 
   mutate(boro = fct_reorder(boro, score)) |> 
@@ -37,7 +59,6 @@ rest_inspec |>
   filter(cuisine_description == "American") |> 
   plot_ly(
     x = ~grade_date, y = ~score, type = "scatter", mode = "markers", color = ~boro, alpha = 0.5)
-  )
-
 ```
+
 

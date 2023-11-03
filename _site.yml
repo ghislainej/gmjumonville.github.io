@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "Experience"
       href: experience.html
+    - text: "NYC Restaurant Inspection"
+      href: nyc_restaurant_inspection_dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<gj2356@cumc.columbia.edu>
     - icon: fa-github fa-lg
